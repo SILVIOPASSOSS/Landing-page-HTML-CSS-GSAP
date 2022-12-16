@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+.leftWrapper {
+  height: 100vh;
+  position: relative;
+}
+.leftWrapper .tri {
+  content: '';
+  position: absolute;
+  border-right: 100px solid #1a1c46;
+  border-top: 100vh solid transparent;
+  right: -24px;
+  transform: rotate(-8deg);
+  transform-origin: top center;
+  opacity: 0;
+}
+.leftBox {
+  position: absolute;
+  left: 40%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 600px;
+}
+.leftWrapper .leftBox h2 {
+  color: #383838;
+  font-weight: 800;
+  line-height: 1.4em;
+  margin-bottom: 20px;
+}
+.leftWrapper .leftBox p {
+  color: #9d9d9d;
+  font-size: 15px;
+  font-weight: 400;
+}
+.leftWrapper .leftBox button {
+  background-color: #383838;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 10px 28px;
+  margin-top: 25px;
+}
+.rightWrapper {
+  background-color: #1a1c46;
+  color: #fff;
+  position: relative;
+  height: 0vh;
+}
+.rightWrapper .rightBox {
+  position: absolute;
+  width: 80%;
+  left: 60%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.rightWrapper .rightBox .rightimg img {
+  max-width: 110px;
+  padding-right: 15px;
+  margin-bottom: 8px;
+}
+.rightWrapper .rightBox .righttext {
+  width: 60%;
+}
+.rightWrapper .rightBox .righttext p {
+  font-size: 15px;
+  font-weight: 400;
+}
+.box1 {
+  width: 42%;
+  height: 175px;
+  border: 8px solid #ff9e00;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+}
+.box2 {
+  width: 42%;
+  height: 175px;
+  border: 8px solid #ff9e00;
+  position: absolute;
+  bottom: -5%;
+  left: -10%;
+  transform: translate(-50%, -50%);
+}
